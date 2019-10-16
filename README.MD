@@ -25,14 +25,14 @@ redis 或 kafka
 配置文件 config.json
 ```
 {
-    "server_port":"",           // 冗余， http端口
+	"server_port":"",           // 冗余， http端口
 	"redis_addr":"127.0.0.1:6379", // redis配置路径，单点或者sentinel
 	"queue_name":"",            // 消息通道队列名, 缺省值 queue_job_task, 
-    "queue_control_name":"",    // 任务控制队列名  缺省值 {queue_name}_control 
+    	"queue_control_name":"",    // 任务控制队列名  缺省值 {queue_name}_control 
 	"logs":false,               // 开启执行日志上报
 	"logs_channel":"queue"      // 日志上报 队列通道   缺省值 {queue_name}_logs
-    "logs_http":""              // 日志上报 web接口
-    "cmd_dir:""                 // 脚本执行目录，用于限制越权  缺省值 ""
+    	"logs_http":""              // 日志上报 web接口
+    	"cmd_dir:""                 // 脚本执行目录，用于限制越权  缺省值 "/tmp"
 }
 ```
 
