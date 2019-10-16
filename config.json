@@ -1,0 +1,7 @@
+{
+    "server_addr":"",
+	"redis_addr":"127.0.0.1:6379",
+	"queue_name":"",
+	"logs":true,
+	"cmd_dir":"/Users/liukelin/Desktop/360/galaxy/src/taskjob/test"
+}
